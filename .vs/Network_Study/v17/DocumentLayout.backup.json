@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\Code\\C#\\Network_Study\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B10887CE-DDE0-4863-96AA-B9A18BB40E38}|TextClient\\TextClient.csproj|e:\\code\\c#\\network_study\\textclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B10887CE-DDE0-4863-96AA-B9A18BB40E38}|TextClient\\TextClient.csproj|solutionrelative:textclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}|Mult_Conn_Server\\Mult_Conn_Server.csproj|e:\\code\\c#\\network_study\\mult_conn_server\\listener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}|Mult_Conn_Server\\Mult_Conn_Server.csproj|solutionrelative:mult_conn_server\\listener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B10887CE-DDE0-4863-96AA-B9A18BB40E38}|TextClient\\TextClient.csproj|e:\\code\\c#\\network_study\\textclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B10887CE-DDE0-4863-96AA-B9A18BB40E38}|TextClient\\TextClient.csproj|solutionrelative:textclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{461A9EAD-8992-403F-B10A-8CCFB07F043F}|Mult_Conn_Client\\Mult_Conn_Client.csproj|e:\\code\\c#\\network_study\\mult_conn_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{461A9EAD-8992-403F-B10A-8CCFB07F043F}|Mult_Conn_Client\\Mult_Conn_Client.csproj|solutionrelative:mult_conn_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC545437-16EF-4603-8BC6-7FE42B8C623E}|TextServer\\TextServer.csproj|e:\\code\\c#\\network_study\\textserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC545437-16EF-4603-8BC6-7FE42B8C623E}|TextServer\\TextServer.csproj|solutionrelative:textserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC545437-16EF-4603-8BC6-7FE42B8C623E}|TextServer\\TextServer.csproj|e:\\code\\c#\\network_study\\textserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC545437-16EF-4603-8BC6-7FE42B8C623E}|TextServer\\TextServer.csproj|solutionrelative:textserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}|Mult_Conn_Server\\Mult_Conn_Server.csproj|e:\\code\\c#\\network_study\\mult_conn_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}|Mult_Conn_Server\\Mult_Conn_Server.csproj|solutionrelative:mult_conn_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\TextClient\\Form1.cs",
-              "RelativeDocumentMoniker": "TextClient\\Form1.cs",
-              "ToolTip": "E:\\Code\\C#\\Network_Study\\TextClient\\Form1.cs",
-              "RelativeToolTip": "TextClient\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAtwCIAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Client\\Program.cs",
+              "RelativeDocumentMoniker": "Mult_Conn_Client\\Program.cs",
+              "ToolTip": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Client\\Program.cs",
+              "RelativeToolTip": "Mult_Conn_Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T00:58:28.843Z",
+              "WhenOpened": "2024-12-04T19:08:25.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Listener.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Server\\Listener.cs",
+              "RelativeDocumentMoniker": "Mult_Conn_Server\\Listener.cs",
+              "ToolTip": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Server\\Listener.cs",
+              "RelativeToolTip": "Mult_Conn_Server\\Listener.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIAywB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:22:21.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\TextServer\\Form1.cs",
-              "RelativeDocumentMoniker": "TextServer\\Form1.cs",
-              "ToolTip": "E:\\Code\\C#\\Network_Study\\TextServer\\Form1.cs",
-              "RelativeToolTip": "TextServer\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAtwD8AAAAdAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Server\\Program.cs",
+              "RelativeDocumentMoniker": "Mult_Conn_Server\\Program.cs",
+              "ToolTip": "E:\\Code\\C#\\Network_Study\\Mult_Conn_Server\\Program.cs",
+              "RelativeToolTip": "Mult_Conn_Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:15:29.891Z",
+              "WhenOpened": "2024-12-04T18:21:54.955Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\TextClient\\Form1.cs",
-              "RelativeDocumentMoniker": "TextClient\\Form1.cs",
-              "ToolTip": "E:\\Code\\C#\\Network_Study\\TextClient\\Form1.cs [Design]",
-              "RelativeToolTip": "TextClient\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T00:58:05.359Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\Code\\C#\\Network_Study\\TextServer\\Form1.cs",
-              "RelativeDocumentMoniker": "TextServer\\Form1.cs",
-              "ToolTip": "E:\\Code\\C#\\Network_Study\\TextServer\\Form1.cs [Design]",
-              "RelativeToolTip": "TextServer\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:12:53.779Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

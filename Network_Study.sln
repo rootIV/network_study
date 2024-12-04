@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server_GUI", "Client_GUI\Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextServer", "TextServer\TextServer.csproj", "{DC545437-16EF-4603-8BC6-7FE42B8C623E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextClient", "TextClient\TextClient.csproj", "{B10887CE-DDE0-4863-96AA-B9A18BB40E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextClient", "TextClient\TextClient.csproj", "{B10887CE-DDE0-4863-96AA-B9A18BB40E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Server", "Mult_Conn_Server\Mult_Conn_Server.csproj", "{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Client", "Mult_Conn_Client\Mult_Conn_Client.csproj", "{461A9EAD-8992-403F-B10A-8CCFB07F043F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{B10887CE-DDE0-4863-96AA-B9A18BB40E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B10887CE-DDE0-4863-96AA-B9A18BB40E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B10887CE-DDE0-4863-96AA-B9A18BB40E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
