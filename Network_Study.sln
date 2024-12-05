@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextServer", "TextServer\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextClient", "TextClient\TextClient.csproj", "{B10887CE-DDE0-4863-96AA-B9A18BB40E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Server", "Mult_Conn_Server\Mult_Conn_Server.csproj", "{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mult_Conn_Server", "Mult_Conn_Server\Mult_Conn_Server.csproj", "{32E9E09D-7B0B-4C90-A143-E3D0D1BA5171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Client", "Mult_Conn_Client\Mult_Conn_Client.csproj", "{461A9EAD-8992-403F-B10A-8CCFB07F043F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mult_Conn_Client", "Mult_Conn_Client\Mult_Conn_Client.csproj", "{461A9EAD-8992-403F-B10A-8CCFB07F043F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Server_GUI", "Mult_Conn_Server_GUI\Mult_Conn_Server_GUI.csproj", "{11486595-A1D6-415A-95C6-C2168E86837F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mult_Conn_Client_GUI", "Mult_Conn_Client_GUI\Mult_Conn_Client_GUI.csproj", "{B20D780A-AA90-41CF-BD60-EB2AD020A972}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{461A9EAD-8992-403F-B10A-8CCFB07F043F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11486595-A1D6-415A-95C6-C2168E86837F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11486595-A1D6-415A-95C6-C2168E86837F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11486595-A1D6-415A-95C6-C2168E86837F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11486595-A1D6-415A-95C6-C2168E86837F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20D780A-AA90-41CF-BD60-EB2AD020A972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20D780A-AA90-41CF-BD60-EB2AD020A972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20D780A-AA90-41CF-BD60-EB2AD020A972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20D780A-AA90-41CF-BD60-EB2AD020A972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

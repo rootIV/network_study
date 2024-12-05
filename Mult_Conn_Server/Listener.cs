@@ -2,75 +2,60 @@
 using System.Net.Sockets;
 
 namespace Mult_Conn_Server;
+
 public class Listener
 {
-    Socket _socket;
-
-    public bool Listening
-    {
-        get;
-        private set;
-    }
-
-    public int Port
-    {
-        get;
-        private set;
-    }
+    internal Socket _socketServer;
+    public bool Listening { get; private set; }
+    public int Port { get; private set; }
+    public delegate void SocketAcceptHandler(Socket e);
+    public event SocketAcceptHandler SocketAccepted;
 
     public Listener(int port)
     {
         Port = port;
-        _socket = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        _socketServer = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
     }
 
     public void Start()
     {
-        if (Listening)
-        {
+        if (Listening) {
             return;
         }
 
-        _socket.Bind(new IPEndPoint(0, Port));
-        _socket.Listen(0);
+        _socketServer.Bind(new IPEndPoint(0, Port));
+        _socketServer.Listen(0);
 
-        _socket.BeginAccept(Callback, null);
+        _socketServer.BeginAccept(Callback, null);
 
         Listening = true;
     }
 
     public void Stop()
     {
-        if (!Listening)
-        {
+        if (!Listening) {
             return;
         }
 
-        _socket.Close();
-        _socket.Dispose();
+        _socketServer.Close();
+        _socketServer.Dispose();
 
-        _socket = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        _socketServer = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
     }
 
     void Callback(IAsyncResult ar)
     {
-        try
-        {
-            Socket _socket = this._socket.EndAccept(ar);
+        try {
+            Socket _socket = this._socketServer.EndAccept(ar);
 
-            if (SocketAccepted != null)
-            {
+            if (SocketAccepted != null) {
                 SocketAccepted(_socket);
             }
 
-            this._socket.BeginAccept(Callback, null);
+            this._socketServer.BeginAccept(Callback, null);
         }
-        catch (Exception ex)
-        {
+        catch (Exception ex) {
             Console.WriteLine(ex.Message);
         }
     }
-
-    public delegate void SocketAcceptHandler(Socket e);
-    public event SocketAcceptHandler SocketAccepted;
 }
